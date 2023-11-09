@@ -1,7 +1,7 @@
 x-center{
-    visibility:hidden;
+    visibility: hidden;
 }
 
 x-center:defined{
-    visibility:visable;
+    visibility:visible;
 }
