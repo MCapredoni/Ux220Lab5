@@ -22,3 +22,12 @@ class YearElement extends HTMLElement{
 }
 
 customElements.define("x-fullyear", YearElement);
+
+class TurquoiseElement extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = 
+        `<div style="color:turquoise">${this.innerHTML}</div>`;
+    }
+}
+
+customElements.define("x-turquoise", TurquoiseElement);
